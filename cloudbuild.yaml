@@ -16,7 +16,7 @@ steps:
     - '--vpc-connector'
     - 'vpc-connector-001'
     - '--ingress'
-    - 'internal'
+    - 'all'
 # - name: 'gcr.io/cloud-builders/gcloud'
 #   args:
 #   - 'container'
