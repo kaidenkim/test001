@@ -15,7 +15,6 @@ steps:
     - '--allow-unauthenticated'
     - '--vpc-connector'
     - 'vpc-connector-001'
-    # - '--clear-vpc-connector'
     - '--ingress'
     - 'internal'
 # - name: 'gcr.io/cloud-builders/gcloud'
