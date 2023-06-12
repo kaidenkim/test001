@@ -13,10 +13,10 @@ steps:
     - '--region'
     - 'asia-northeast3'
     - '--allow-unauthenticated'
-    - '--vpc-connector'
-    - 'vpc-connector-001'
+    # - '--vpc-connector'
+    # - 'vpc-connector-001'
     - '--ingress'
-    - 'all'
+    - 'internal'
 # - name: 'gcr.io/cloud-builders/gcloud'
 #   args:
 #   - 'container'
