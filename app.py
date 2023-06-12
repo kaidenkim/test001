@@ -36,7 +36,7 @@ def backend1():
         "revision": revision
     }
 
-    return json.dumps(response)
+    return json.dumps(response, indent=4)
 
 @app.route('/backend2')
 def backend2():
@@ -50,7 +50,7 @@ def backend2():
         "revision": revision
     }
 
-    return json.dumps(response)
+    return json.dumps(response, indent=4)
 
 if __name__ == '__main__':
     server_port = os.environ.get('PORT', '8080')
