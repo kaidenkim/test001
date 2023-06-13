@@ -31,7 +31,7 @@ def backend1():
     revision = os.environ.get('K_REVISION', 'Unknown revision')
 
     response = {
-        "message": "Hello from backend1",
+        "message": "Hello from backend1 v2",
         "service": service,
         "revision": revision
     }
@@ -45,7 +45,7 @@ def backend2():
     revision = os.environ.get('K_REVISION', 'Unknown revision')
 
     response = {
-        "message": "Hello from backend2",
+        "message": "Hello from backend2 v2",
         "service": service,
         "revision": revision
     }
