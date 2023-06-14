@@ -15,8 +15,12 @@ steps:
     - '--allow-unauthenticated'
     - '--vpc-connector'
     - 'vpc-connector-001'
+    - '--set-env-vars'
+    - 'BACKEND_URL=https://cloud-run-test-backend-n5pwu7fhga-du.a.run.app'
     - '--ingress'
-    - 'internal'
+    - 'all'
+    - '--vpc-egress'
+    - 'all-traffic'
 # - name: 'gcr.io/cloud-builders/gcloud'
 #   args:
 #   - 'container'
