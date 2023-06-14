@@ -11,7 +11,7 @@ steps:
     - '--image'
     - 'gcr.io/$PROJECT_ID/cloud-run-test-backend'
     - '--region'
-    - 'asia-northeast3'
+    - 'asia-east01'
     - '--allow-unauthenticated'
     - '--vpc-connector'
     - 'vpc-connector-001'
